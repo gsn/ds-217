@@ -42,11 +42,6 @@
             storeRequired: true,
             caseInsensitiveMatch: true
           })
-          .when('/circular/grid', {
-            templateUrl: gsn.getThemeUrl('/views/circular-view.html'),
-            storeRequired: true,
-            caseInsensitiveMatch: true
-          })
           .when('/thefeed', {
             templateUrl: gsn.getThemeUrl('/views/custom/community.html'),
             caseInsensitiveMatch: true
