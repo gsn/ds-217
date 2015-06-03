@@ -25,8 +25,7 @@
           .when('/circular', {
             templateUrl: gsn.getThemeUrl('/views/circular-view.html'),
             storeRequired: true,
-            caseInsensitiveMatch: true,
-            reloadOnSearch: false
+            caseInsensitiveMatch: true
           })
           .when('/circular/flyer', {
             templateUrl: gsn.getThemeUrl('/views/circular-view.html'),
