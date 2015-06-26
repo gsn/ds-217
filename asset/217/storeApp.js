@@ -57,9 +57,10 @@
             caseInsensitiveMatch: true
           })
           .when('/coupons/printable', {
-            templateUrl: gsn.getThemeUrl('/views/coupons-printable.html'),
-            storeRequired: true,
-            caseInsensitiveMatch: true
+			redirectTo:'/coupons'
+            // templateUrl: gsn.getThemeUrl('/views/coupons-printable.html'),
+            // storeRequired: true,
+            // caseInsensitiveMatch: true
           })
           .when('/emailpreview/registration', {
             templateUrl: gsn.getContentUrl('/views/email/registration.html'),
