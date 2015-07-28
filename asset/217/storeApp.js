@@ -62,7 +62,7 @@
             caseInsensitiveMatch: true
           })
           .when('/coupons/digital', {
-            redirectTo: '/coupons'
+            redirectTo: '/coupons',
             caseInsensitiveMatch: true
           })
           .when('/emailpreview/registration', {
