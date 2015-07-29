@@ -56,11 +56,18 @@
             storeRequired: true,
             caseInsensitiveMatch: true
           })
+          /*.when('/coupons/printable', {
+            templateUrl: gsn.getThemeUrl('/views/coupons-printable.html'),
+            storeRequired: true,
+            caseInsensitiveMatch: true
+          })*/
           .when('/coupons/printable', {
-			redirectTo:'/coupons'
-            // templateUrl: gsn.getThemeUrl('/views/coupons-printable.html'),
-            // storeRequired: true,
-            // caseInsensitiveMatch: true
+            redirectTo: '/coupons',
+            caseInsensitiveMatch: true
+          })
+          .when('/coupons/digital', {
+            redirectTo: '/coupons',
+            caseInsensitiveMatch: true
           })
           .when('/emailpreview/registration', {
             templateUrl: gsn.getContentUrl('/views/email/registration.html'),
