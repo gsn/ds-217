@@ -121,6 +121,28 @@ legend {
   text-align: center;
 }
 
+.amenities { background: url('../images/amenities_2.png') no-repeat top left; width: 32px; height: 32px;  float: left; display: block; } 
+.amenities.roundy-bbq { background-position: 0 0; } 
+.amenities.roundy-classroom { background-position: 0 -37px; } 
+.amenities.roundy-delivery { background-position: 0 -74px; } 
+.amenities.roundy-demoKitchen { background-position: 0 -111px; } 
+.amenities.roundy-grilling { background-position: 0 -148px; } 
+.amenities.roundy-oliveOil { background-position: 0 -185px; } 
+.amenities.roundy-oysterBar { background-position: 0 -222px; } 
+.amenities.roundy-patio { background-position: 0 -259px; } 
+.amenities.roundy-pharmacy { background-position: 0 -296px; } 
+.amenities.roundy-spiceShop { background-position: 0 -333px; } 
+.amenities.roundy-squeezd { background-position: 0 -370px; } 
+.amenities.roundy-sushi { background-position: 0 -407px;} 
+.amenities.roundy-sweetShop { background-position: 0 -444px; } 
+.amenities.roundy-coffee { background-position: 0 -481px; } 
+.amenities.roundy-wineBar { background-position: 0 -518px; } 
+.amenities.roundy-catering { background-position: 0 -557px; } 
+.amenities.roundy-gellato { background-position: 0 -597px; } 
+.amenities.roundy-starbucks { background-position: 0 -637px; } 
+.amenities.roundy-kosher { background-position: 0 -668px; } 
+
+
 #recaptcha_switch_audio {
   display: none;
 }
@@ -768,7 +790,7 @@ legend {
   }	
 	
 
-  .singleStoreInfo .btn, .singleStoreInfo span {
+  .pharmacy-phone, .singleStoreInfo .btn, .singleStoreInfo span {
     text-transform: lowercase;
   }
 
