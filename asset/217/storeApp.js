@@ -52,7 +52,7 @@
             caseInsensitiveMatch: true
           })
           .when('/coupons', {
-            templateUrl: gsn.getThemeUrl('/views/coupons-digital.html'),
+            templateUrl: gsn.getContentUrl('/views/coupons-digital.html'),
             storeRequired: true,
             caseInsensitiveMatch: true
           })
