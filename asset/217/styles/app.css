@@ -2223,12 +2223,6 @@ td.nutr-border {
   {
     padding-left: 6px;
   }
-
-  .itemInfo > div.circular-item > div:nth-child(2)
-  {
-    max-height: 38px;
-    overflow: hidden;
-  }
 }
 
 /*---------- coupon tabs ----------*/
