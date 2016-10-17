@@ -1,4 +1,4 @@
-﻿<div class="row" data-ctrl-registration="">    
+<div class="row" data-ctrl-registration="">
   <div class="col-md-2 sidebar">
     <div class="getNav" data-ng-include="getThemeUrl('/views/menu.html')"></div>
   </div>
@@ -6,8 +6,8 @@
     <div class="row">
     <div class="col-md-6 col-md-offset-3 alert alert-danger text-center" data-ng-show="errorMessage">
               <strong class="col-md-12"><i class="fa fa-exclamation-triangle text-center"></i>Error</strong>
-              <p class="col-md-12">{{errorMessage}}</p>                     
-            </div>   
+              <p class="col-md-12">{{errorMessage}}</p>
+            </div>
       </div>
     <form role="form" name="myForm" data-ng-submit="registerProfile()" data-ng-hide="isLoggedIn">
       <div class="form-group" data-ng-class="{'has-success': !myForm.firstname.$invalid, 'has-error': myForm.firstname.$invalid}">
@@ -44,7 +44,7 @@
         </label>
         <input type="password" class="form-control passwordText" name="password" placeholder="Enter password" data-ng-minlength="6" data-ng-model="profile.Password" data-ng-required="true" />
         <p class="help-block" data-ng-show="myForm.password.$error.minlength">
-          * Must be at least 6 characters. 
+          * Must be at least 6 characters.
         </p>
       </div>
 
@@ -60,9 +60,14 @@
 
       <div class="checkbox">
 
-        <input type="checkbox" name="receiveemail" data-ng-model="profile.ReceiveEmail">
-        Receive Email
-                                                                                         
+
+                <div>
+                  <label for="receiveemail"><input type="checkbox" id="receiveemail" name="receiveemail" data-ng-model="profile.ReceiveEmail">
+                  Send me coupons, offers and other communications via email</label><br />
+                  <label for="receivemail"><input type="checkbox" id="receivemail" name="receivemail" data-ng-model="profile.ReceiveMail">
+                  Send me coupons, offers and other communications via mail</label>
+                </div>
+
         <p class="help-block"><a data-ng-href="/privacy">Privacy Policy</a></p>
       </div>
 
