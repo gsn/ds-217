@@ -1,4 +1,4 @@
-﻿/*---------- Global CSS ----------*/
+/*---------- Global CSS ----------*/
 * {
   -webkit-overflow-scrolling: touch;
   -webkit-user-select: html;
@@ -81,6 +81,12 @@ legend {
     background-color: #6d5047;
 		color: #ffffff;
   }
+
+  .btnMarianos-outer {
+    bottom: 15px;
+    position: absolute;
+    right: 270px;
+}
   .couponNavBtn
   {
     width: 100%;
@@ -121,26 +127,26 @@ legend {
   text-align: center;
 }
 
-.amenities { background: url('../images/amenities_2.png') no-repeat top left; width: 32px; height: 32px;  float: left; display: block; } 
-.amenities.roundy-bbq { background-position: 0 0; } 
-.amenities.roundy-classroom { background-position: 0 -37px; } 
-.amenities.roundy-delivery { background-position: 0 -74px; } 
-.amenities.roundy-demoKitchen { background-position: 0 -111px; } 
-.amenities.roundy-grilling { background-position: 0 -148px; } 
-.amenities.roundy-oliveOil { background-position: 0 -185px; } 
-.amenities.roundy-oysterBar { background-position: 0 -222px; } 
-.amenities.roundy-patio { background-position: 0 -259px; } 
-.amenities.roundy-pharmacy { background-position: 0 -296px; } 
-.amenities.roundy-spiceShop { background-position: 0 -333px; } 
-.amenities.roundy-squeezd { background-position: 0 -370px; } 
-.amenities.roundy-sushi { background-position: 0 -407px;} 
-.amenities.roundy-sweetShop { background-position: 0 -444px; } 
-.amenities.roundy-coffee { background-position: 0 -481px; } 
-.amenities.roundy-wineBar { background-position: 0 -518px; } 
-.amenities.roundy-catering { background-position: 0 -557px; } 
-.amenities.roundy-gellato { background-position: 0 -597px; } 
-.amenities.roundy-starbucks { background-position: 0 -637px; } 
-.amenities.roundy-kosher { background-position: 0 -668px; } 
+.amenities { background: url('../images/amenities_2.png') no-repeat top left; width: 32px; height: 32px;  float: left; display: block; }
+.amenities.roundy-bbq { background-position: 0 0; }
+.amenities.roundy-classroom { background-position: 0 -37px; }
+.amenities.roundy-delivery { background-position: 0 -74px; }
+.amenities.roundy-demoKitchen { background-position: 0 -111px; }
+.amenities.roundy-grilling { background-position: 0 -148px; }
+.amenities.roundy-oliveOil { background-position: 0 -185px; }
+.amenities.roundy-oysterBar { background-position: 0 -222px; }
+.amenities.roundy-patio { background-position: 0 -259px; }
+.amenities.roundy-pharmacy { background-position: 0 -296px; }
+.amenities.roundy-spiceShop { background-position: 0 -333px; }
+.amenities.roundy-squeezd { background-position: 0 -370px; }
+.amenities.roundy-sushi { background-position: 0 -407px;}
+.amenities.roundy-sweetShop { background-position: 0 -444px; }
+.amenities.roundy-coffee { background-position: 0 -481px; }
+.amenities.roundy-wineBar { background-position: 0 -518px; }
+.amenities.roundy-catering { background-position: 0 -557px; }
+.amenities.roundy-gellato { background-position: 0 -597px; }
+.amenities.roundy-starbucks { background-position: 0 -637px; }
+.amenities.roundy-kosher { background-position: 0 -668px; }
 
 
 #recaptcha_switch_audio {
@@ -460,7 +466,7 @@ legend {
   color: #ffffff;
 }
 
-.dropdown-menu {    
+.dropdown-menu {
     background-color: #a5acaf;
     left: 32px;
     min-width: 214px;
@@ -787,8 +793,8 @@ legend {
     color: #718246;
     padding: 0;
 		text-transform: none !important;
-  }	
-	
+  }
+
 
   .pharmacy-phone, .singleStoreInfo .btn, .singleStoreInfo span {
     text-transform: lowercase;
@@ -1089,7 +1095,7 @@ caption {
       }
 
       .shoppingListButtons ul li div {
-          font-size: 10px; 
+          font-size: 10px;
           cursor:default;
           color:#5e7803;
       }
@@ -1297,8 +1303,8 @@ caption {
   }
 
     .savingsInfoContainer .btn-elipsis:hover
-  {   
-    background-color:#6a7f10;   
+  {
+    background-color:#6a7f10;
   }
 
 .savingsInfoContainer .btn-block
@@ -1346,9 +1352,9 @@ margin-left: -120px;
     margin: auto;
   }
 
-.digital { 
-  display:block; 
-  padding-top:5px;  
+.digital {
+  display:block;
+  padding-top:5px;
   overflow: hidden;
   position: relative;
   line-height:14px;
@@ -2106,17 +2112,17 @@ td.nutr-border {
 }
 
 /*---------- Static Pages ----------*/
-.staticTabs .nav 
+.staticTabs .nav
 {
   margin-bottom: 10px;
 }
 
-.staticTabs .nav > li 
+.staticTabs .nav > li
 {
   border-bottom: none;
 }
 
-.staticTabs .nav > li > a 
+.staticTabs .nav > li > a
 {
   border-radius: 10px 10px 0 0;
   box-shadow: 3px 0;
@@ -2189,7 +2195,7 @@ td.nutr-border {
   button[data-analytics-event="ClickPrint"]
   {
     display:none;
-  }  
+  }
 
   .itemInfo
   {
@@ -2356,13 +2362,13 @@ td.nutr-border {
 {
   background-color: white;
   border: solid 1px;
-  border-radius: 10px;  
+  border-radius: 10px;
   text-align: center;
   display: table;
   cursor: pointer;
 }
 
-.panel-button span 
+.panel-button span
 {
     vertical-align:middle;
     display: table-cell;
@@ -2443,7 +2449,7 @@ dropdown-submenu{position:relative;}
 /*---------- bootstrap auto width ----------*/
 @media (min-width: none) {
     .col-xs-auto { width: auto; }
-	
+
 }
 @media (min-width: 750px) {
     .col-sm-auto { width: auto; }
@@ -2507,7 +2513,7 @@ dropdown-submenu{position:relative;}
 }
 .padding-top-sm
 {
-  padding-top:10px;  
+  padding-top:10px;
 }
 
 .padding-top-lg
@@ -2522,7 +2528,7 @@ dropdown-submenu{position:relative;}
     overflow: hidden;
 }
 .cssSlideUp.ng-hide {
-    padding:0;    
+    padding:0;
     height:0;
 }
 .ng-hide-add, .ng-hide-remove {
