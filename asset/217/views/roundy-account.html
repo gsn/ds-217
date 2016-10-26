@@ -52,10 +52,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row padding-top-lg">
-                        <div class="row padding-top-sm">
-                            <div class="col-md-8 col-md-offset-2">
-                                <button type="button" class="btn btnMarianos padding-top-sm" data-ng-click="goUrl('/changepassword')">Change Password</button>
+                    <div class="row">
+                        <div class="row padding-top-sm" style="padding-bottom: 15px">
+                            <div class="row text-center">
+                                <button type="button" class="btn btnMarianos" data-ng-click="goUrl('/changepassword')">Change Password</button>
                             </div>
                         </div>
                         <div class="form-group col-md-6" data-ng-class="{'has-success': !MyForm.email.$invalid, 'has-error': MyForm.email.$invalid}">
@@ -121,7 +121,7 @@
                     </div>
 
                     <div class="row">
-                        <button type="submit" class="btn btnMarianos pull-right" data-ng-disabled="!MyForm.$valid">Save</button>
+                        <button type="submit" class="btn btnMarianos pull-right" data-ng-disabled="!MyForm.$valid" style="width: 150px">Save</button>
                     </div>
                 </div>
                 <div class="col-md-4">
